@@ -1,5 +1,5 @@
 const calculateTotal =(num)  => {
-  console.log(num * num);
+  return num * num;
 }
 
-calculateTotal(50)
+console.log(calculateTotal(50));
